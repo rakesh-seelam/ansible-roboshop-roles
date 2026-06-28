@@ -1,2 +1,11 @@
 ansible_name: ec2_user
 ansible_password: DevOps321
+MONGODB_HOST: mongodb-dev.rakesh.bond
+REDIS_HOST: redis-dev.rakesh.bond
+CATALOGUE_HOST: catalogue-dev.rakesh.bond
+CART_HOST: cart-dev.rakesh.bond
+PAYMENT_HOST: payment-dev.rakesh.bond
+MYSQL_HOST: mysql-dev.rakesh.bond
+USER_HOST: user-dev.rakesh.bond
+RABBITMQ_HOST: rabbitmq-dev.rakesh.bond
+SHIPPING_HOST: shipping-dev.rakesh.bond
