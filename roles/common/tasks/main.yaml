@@ -1,0 +1,3 @@
+- name: Configure {{ component }}
+  ansible.builtin.debug:
+   msg: "Hi, I am configuring {{ component }} from common"
