@@ -1,0 +1,4 @@
+- name: Call common 
+  ansibile.builtin.import_role:
+   name: common
+   tasks_from: include_vs_import.yaml
