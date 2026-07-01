@@ -6,6 +6,10 @@
   ansible.builtin.debug:
    msg: "Hi from test 2"
 
+- name: setting os
+  ansible.builtin.set_fact:
+   os: "debian"
+
 - name: testing 3
   ansible.builtin.debug:
    msg: "Hi from test 1"
