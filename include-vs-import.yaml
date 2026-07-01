@@ -1,5 +1,5 @@
 - name: include vs import_role
   hosts: local
   connection: local
-  role:
+  roles:
   - include-vs-import.yaml
