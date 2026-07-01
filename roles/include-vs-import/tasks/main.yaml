@@ -1,6 +1,6 @@
 - name: Call common 
-  ansible.builtin.import_role:
-  #ansible.builtin.include_role:
+  #ansible.builtin.import_role:
+  ansible.builtin.include_role:
    name: common
    tasks_from: include_vs_import.yaml
   when: os == "RedHat"
